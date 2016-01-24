@@ -1,0 +1,17 @@
+{
+    "contents" : "Type: Shiny\nTitle: Malaysia Home Loan Calculator\nAuthor: Thomas Lee Wai Siong\nDisplayMode: Showcase\n\n",
+    "created" : 1453645715625.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "814317767",
+    "id" : "3E343A35",
+    "lastKnownWriteTime" : 1453645925,
+    "path" : "~/R/ShinyWebApp/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}
