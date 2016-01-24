@@ -9,7 +9,7 @@ shinyUI(pageWithSidebar(
     numericInput(inputId="interestRate", label="Interest Rate (%):", value= 4.25,min=0),
     actionButton("goButton", "Calculate"),
     br(),    
-    p(strong(em("Github repository:",a("Developing Data Products - Peer Assessment Project; Shiny App",href="https://github.com/CrazyFarang/DevelopingDataProducts"))))
+    p(strong(em("Github repository:",a("Developing Data Products - Peer Assessment Project; Shiny App",href="https://github.com/flyingfox22/ShinyWebApp"))))
   ),
   mainPanel(
     tabsetPanel(
