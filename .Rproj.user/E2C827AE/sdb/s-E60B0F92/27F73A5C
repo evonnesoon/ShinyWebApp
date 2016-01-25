@@ -1,0 +1,16 @@
+{
+    "contents" : "Malaysia Home Loan Calculator And Payment Schedule Simulation App\n========================================================\nauthor: Thomas Lee Wai Siong\ndate: January 25th, 2016\ntransition: rotate\ntransition-speed: fast\nrtl: false\nfont-family: 'Helvetica'\nWhy you should understand your monthly house loan repayments before getting a new loan application?\n\nWhat is House Loan Calculator?\n========================================================\nincremental: true\ntype: prompt\n\nMalaysia home loan calculator to estimate your monthly house loan repayments.\nIn order to know your monthly house loan repayments, you must provide the infomations below:\n\n- Property price in Malaysian Ringgit\n- Down payment amount in Malaysian Ringgit\n- Housing loan period in Years\n- Loan interest rate in Percentage.\n\nWhy you should be aware of your house loan repayments\n========================================================\nincremental: true\ntype: alert\n\n- Recent US rate hike puts Malaysia on the moderate risk.\n- The language used by the FOMC in their latest statement suggests that the pace of rate hikes will be **gradual** as opposed to **measured**.\n- The FOMC also released projections that signalled four rate hikes of 25 basis points each in 2016.\n- In the short-term, there is a high possibility of central banks around the world\nmaking monetary policy adjustments in response to the the Fed rate hike including **Malaysia**\n- Malaysia Overnight Policy Rate (OPR) unchanged at **3.25%**\n- Current FED Rate **0.25%** to **0.50%**\n\n\nHow do you find out your monthly repayments?\n========================================================\n\nThe formula for housing loan monthly repayments is\n```{r}\npropertyPrice<-500000\ndownPayment<-50000\ninterestRate<-4.25\nloanPeriod<-35\n\nloanAmount <- propertyPrice - downPayment\ninterestRate <-interestRate/100\nloanPeriod <- loanPeriod * 12 \npayment <-(loanAmount) * (((1 + interestRate/12)^ loanPeriod) * interestRate)/(12 * (((1+interestRate/12)^ loanPeriod) - 1))\nround(payment,2)\n```\n\nMalaysia Home Loan Calculator And Payment Schedule Simulation App\n========================================================\nincremental: true\n- Estimate monthly home loan repayment amount.\n- Generate pie chart of housing loan principal versus interest amounts.\n- Generate principal, interest and balance loan repayment chart, over loan period.\n- Generate principal, interest and balance loan repayment table, by year.\n- You can access the Shiny App at [here](https://leewaisiong.shinyapps.io/ShinyWebApp/)\n- You can access the Shiny GitHub Code at [here](https://github.com/flyingfox22/ShinyWebApp)\n- You can access the Presentation Code at [here](https://github.com/flyingfox22/ShinyWebAppPresentation) and [here](https://github.com/flyingfox22/ShinyWebAppPresentation)\n\n",
+    "created" : 1453689261821.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2396667510",
+    "id" : "27F73A5C",
+    "lastKnownWriteTime" : 1453694207,
+    "path" : "~/R/ShinyWebAppPresentation/ReadMe.md.Rpres",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
